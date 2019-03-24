@@ -1,0 +1,9 @@
+*.o
+/config.h
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/stterm.debhelper.log
+/debian/stterm.substvars
+/debian/stterm/
+/st

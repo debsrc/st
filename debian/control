@@ -1,8 +1,8 @@
 Source: stterm
 Section: x11
 Priority: optional
-Maintainer: Paride Legovini <pl@ninthfloor.org>
-Build-Depends: debhelper-compat (= 12),
+Maintainer: Danil <danil@kutkevich.org>
+Build-Depends: debhelper-compat (= 11),
                libx11-dev,
                libxft-dev,
                pkg-config
@@ -13,7 +13,7 @@ Homepage: https://st.suckless.org
 
 Package: stterm
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, ncurses-term (>= 6.1+20180714-1)
+Depends: ${shlibs:Depends}, ${misc:Depends}, ncurses-term (>= 6.1)
 Provides: x-terminal-emulator
 Multi-Arch: foreign
 X-Comment:

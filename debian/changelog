@@ -1,3 +1,9 @@
+stterm (0.8.2-1+20190324) UNRELEASED; urgency=medium
+
+  * Patch: config customization
+
+ -- Danil Kutkevich <danil@kutkevich.org>  Sun, 24 Mar 2019 17:46:10 +0300
+
 stterm (0.8.2-1) unstable; urgency=medium
 
   * New upstream version 0.8.1 (closes: 921961)
